@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/base_motor_holder_so101_v1.stl",
+    "path": "assets\\robot\\so101\\assets\\base_motor_holder_so101_v1.stl",
+    "bytes": 1877084
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/base_so101_v2.stl",
+    "path": "assets\\robot\\so101\\assets\\base_so101_v2.stl",
+    "bytes": 471584
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/motor_holder_so101_base_v1.stl",
+    "path": "assets\\robot\\so101\\assets\\motor_holder_so101_base_v1.stl",
+    "bytes": 1129384
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/motor_holder_so101_wrist_v1.stl",
+    "path": "assets\\robot\\so101\\assets\\motor_holder_so101_wrist_v1.stl",
+    "bytes": 1052184
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/moving_jaw_so101_v1.stl",
+    "path": "assets\\robot\\so101\\assets\\moving_jaw_so101_v1.stl",
+    "bytes": 1413584
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/rotation_pitch_so101_v1.stl",
+    "path": "assets\\robot\\so101\\assets\\rotation_pitch_so101_v1.stl",
+    "bytes": 883684
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/sts3215_03a_no_horn_v1.stl",
+    "path": "assets\\robot\\so101\\assets\\sts3215_03a_no_horn_v1.stl",
+    "bytes": 865884
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/sts3215_03a_v1.stl",
+    "path": "assets\\robot\\so101\\assets\\sts3215_03a_v1.stl",
+    "bytes": 954084
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/under_arm_so101_v1.stl",
+    "path": "assets\\robot\\so101\\assets\\under_arm_so101_v1.stl",
+    "bytes": 1975884
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/upper_arm_so101_v1.stl",
+    "path": "assets\\robot\\so101\\assets\\upper_arm_so101_v1.stl",
+    "bytes": 1303484
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+    "path": "assets\\robot\\so101\\assets\\waveshare_mounting_plate_so101_v2.stl",
+    "bytes": 62784
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/wrist_roll_follower_so101_v1.stl",
+    "path": "assets\\robot\\so101\\assets\\wrist_roll_follower_so101_v1.stl",
+    "bytes": 1439884
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+    "path": "assets\\robot\\so101\\assets\\wrist_roll_pitch_so101_v2.stl",
+    "bytes": 2699784
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/Simulation/SO101/README.md",
+    "path": "assets\\robot\\so101\\README.upstream.md",
+    "bytes": 2408
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/LICENSE",
+    "path": "assets\\robot\\so101\\LICENSE",
+    "bytes": 11357
+  }
+]

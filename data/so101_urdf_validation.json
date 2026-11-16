@@ -1,0 +1,348 @@
+{
+  "mode": "OFFLINE_MODEL_ONLY",
+  "hardware_connected": false,
+  "model": "assets\\robot\\so101\\so101_new_calib.urdf",
+  "root": "base_link",
+  "tip": "gripper_frame_link",
+  "joint_limits_deg": {
+    "shoulder_pan": [
+      -109.99987525598623,
+      109.99987525598623
+    ],
+    "shoulder_lift": [
+      -100.00004285756798,
+      100.00004285756798
+    ],
+    "elbow_flex": [
+      -96.82986737710912,
+      96.82986737710912
+    ],
+    "wrist_flex": [
+      -94.99984017946129,
+      94.99984017946129
+    ],
+    "wrist_roll": [
+      -157.21102461697095,
+      162.78934171036462
+    ]
+  },
+  "mesh_count": 13,
+  "missing_meshes": [],
+  "zero_pose": [
+    [
+      8.665019265737815e-06,
+      -1.0300368439284607e-05,
+      0.9999999999094096,
+      0.3913614702201579
+    ],
+    [
+      0.04866292685830082,
+      0.9988152579192191,
+      9.866499961486482e-06,
+      -9.212063114598921e-06
+    ],
+    [
+      -0.998815257930365,
+      0.048662926768399006,
+      9.155999528757384e-06,
+      0.22646971024033283
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "cases": [
+    {
+      "target_joints_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_error_m": 2.233612585768618e-08,
+      "orientation_error_rad": 1.5773708584376783e-09,
+      "independent_fk_max_error": 4.440892098500626e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        58.54622434696312,
+        -16.86948322885836,
+        33.09320432320298,
+        10.405695610398457,
+        -37.81546632801379
+      ],
+      "position_error_m": 1.6420044659649177e-08,
+      "orientation_error_rad": 9.80895744999891e-10,
+      "independent_fk_max_error": 6.661338147750939e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        55.79972732882608,
+        44.319804355810476,
+        -15.78654979672081,
+        53.942066120101806,
+        -51.217893919397454
+      ],
+      "position_error_m": 1.997318821064296e-12,
+      "orientation_error_rad": 1.8842698833375798e-13,
+      "independent_fk_max_error": 8.881784197001252e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        40.32540883597521,
+        21.70755705702832,
+        -3.362647070013763,
+        -53.488086372877945,
+        77.47483689513939
+      ],
+      "position_error_m": 7.450439833506086e-09,
+      "orientation_error_rad": 1.393924112607628e-10,
+      "independent_fk_max_error": 4.440892098500626e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        9.71948212127719,
+        -13.163014722964283,
+        -16.885691464313705,
+        17.32489507239437,
+        -27.69708096894989
+      ],
+      "position_error_m": 2.085213377696024e-09,
+      "orientation_error_rad": 9.986301294388158e-11,
+      "independent_fk_max_error": 3.0531133177191805e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        1.0005467410326365,
+        -15.487722312420948,
+        -51.683578394409935,
+        -28.453303294730883,
+        67.13847340637477
+      ],
+      "position_error_m": 5.924411818454611e-11,
+      "orientation_error_rad": 3.1263925456675737e-13,
+      "independent_fk_max_error": 5.551115123125783e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        41.99633510511478,
+        20.07905975369727,
+        -3.4175995838566053,
+        53.56218206062358,
+        67.00363468019069
+      ],
+      "position_error_m": 2.7606489615610957e-10,
+      "orientation_error_rad": 1.5851251802648475e-11,
+      "independent_fk_max_error": 6.661338147750939e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        -33.65105695296089,
+        8.105654200349178,
+        52.97963856395478,
+        32.560347586614604,
+        -23.41127987979734
+      ],
+      "position_error_m": 3.722263634552334e-11,
+      "orientation_error_rad": 4.129919411718944e-12,
+      "independent_fk_max_error": 8.881784197001252e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        -3.9700715935316633,
+        2.139220190999218,
+        46.6983417430809,
+        24.42965110140541,
+        -17.884045946324463
+      ],
+      "position_error_m": 5.548764220182349e-12,
+      "orientation_error_rad": 3.8843807671104704e-13,
+      "independent_fk_max_error": 8.881784197001252e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        -5.010536161585843,
+        -48.92284423860487,
+        -0.9255047754778251,
+        -30.89139855555758,
+        -76.44524493268183
+      ],
+      "position_error_m": 4.4440067935130166e-13,
+      "orientation_error_rad": 1.5032423890361302e-15,
+      "independent_fk_max_error": 8.881784197001252e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        -53.95139855533146,
+        -34.100959471577085,
+        23.137658435131698,
+        -36.57305083129086,
+        14.803844553673635
+      ],
+      "position_error_m": 2.4061254958461995e-08,
+      "orientation_error_rad": 1.3609592245135022e-09,
+      "independent_fk_max_error": 7.771561172376096e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        13.545700384599852,
+        55.95187519448224,
+        -4.857003794779761,
+        31.29606082510445,
+        -87.62689753432986
+      ],
+      "position_error_m": 6.792662803623049e-13,
+      "orientation_error_rad": 2.9920114583885596e-14,
+      "independent_fk_max_error": 7.771561172376096e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        19.088052019409833,
+        57.636424215351234,
+        -52.59223672720579,
+        46.47200145307922,
+        -64.41713448862517
+      ],
+      "position_error_m": 1.5420289698434518e-09,
+      "orientation_error_rad": 7.21360524470582e-11,
+      "independent_fk_max_error": 4.440892098500626e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        23.13280321007532,
+        -56.966673864589076,
+        -50.95587433825156,
+        -41.64451113489736,
+        78.72759132442351
+      ],
+      "position_error_m": 1.4834685251066146e-11,
+      "orientation_error_rad": 3.1178523523709017e-13,
+      "independent_fk_max_error": 4.440892098500626e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        37.34129756366563,
+        19.41460956524437,
+        17.366263437391822,
+        -23.511212567554942,
+        7.069716427058512
+      ],
+      "position_error_m": 2.3309233576774693e-13,
+      "orientation_error_rad": 6.060061340541514e-15,
+      "independent_fk_max_error": 5.551115123125783e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        -2.3933506884005715,
+        54.13380464237835,
+        -5.321293387545714,
+        28.14922864892396,
+        -25.46514182171361
+      ],
+      "position_error_m": 1.6674621325705573e-08,
+      "orientation_error_rad": 1.3675619875382985e-09,
+      "independent_fk_max_error": 9.992007221626409e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        56.15602983945646,
+        42.28469662850186,
+        57.15507524935143,
+        -31.1170879868468,
+        72.78752136532114
+      ],
+      "position_error_m": 1.7027886379989248e-09,
+      "orientation_error_rad": 6.439891380420914e-11,
+      "independent_fk_max_error": 8.881784197001252e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        -3.0372692621751627,
+        1.1258541866100502,
+        4.856765032356251,
+        -46.53011423246656,
+        74.84050962150687
+      ],
+      "position_error_m": 8.2161333007534e-08,
+      "orientation_error_rad": 1.2431138431862542e-09,
+      "independent_fk_max_error": 4.440892098500626e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        13.780128631705454,
+        -47.36323823856141,
+        27.777439691942828,
+        -44.06832649056425,
+        -21.1268659951876
+      ],
+      "position_error_m": 1.630495590293955e-13,
+      "orientation_error_rad": 1.4641540389378065e-14,
+      "independent_fk_max_error": 6.661338147750939e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    },
+    {
+      "target_joints_deg": [
+        22.37749192875975,
+        -4.168520630119695,
+        -50.548727519913115,
+        13.93783877573796,
+        -23.91479012848433
+      ],
+      "position_error_m": 1.4816236424798121e-08,
+      "orientation_error_rad": 5.339807480156601e-10,
+      "independent_fk_max_error": 7.771561172376096e-16,
+      "in_urdf_limits": true,
+      "passed": true
+    }
+  ],
+  "passed_cases": 20,
+  "unreachable_position_residual_m": 16.806472103446676,
+  "limitations": [
+    "URDF limits are not measured motor limits",
+    "No collisions checked",
+    "No board-to-base calibration or real board reachability tested",
+    "TCP and joint zero/sign must match physical arm",
+    "Near-target initial guesses; not a global IK convergence benchmark"
+  ]
+}

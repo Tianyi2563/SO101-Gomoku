@@ -1,0 +1,15 @@
+{
+  "torch": {
+    "available": true,
+    "version": "2.11.0+cpu",
+    "tensor_sum": 3.0
+  },
+  "placo": {
+    "available": false,
+    "error": "ModuleNotFoundError: No module named 'placo'"
+  },
+  "lerobot.robots.so_follower": {
+    "available": true,
+    "version": null
+  }
+}

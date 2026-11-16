@@ -1,0 +1,97 @@
+{
+  "robot": {
+    "port": "COM3",
+    "id": "my_so101_follower",
+    "calibration_dir": null,
+    "mock": false,
+    "mock_follow_speed_deg": 240.0
+  },
+  "control": {
+    "fps": 50.0,
+    "default_duration": 1.2,
+    "max_speed_deg": 60.0,
+    "profile": "minjerk",
+    "gripper_speed": 250.0,
+    "settle_tol_deg": 1.5
+  },
+  "ik": {
+    "mode": "range",
+    "signs": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offsets_deg": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scales_deg_per_unit": null,
+    "step_mm": 10.0,
+    "max_step_mm": 50.0,
+    "min_useful_mm": 1.0,
+    "speed_mm_s": 40.0,
+    "tol_mm": 0.5,
+    "damping": 0.05,
+    "limit_margin_deg": 0.5
+  },
+  "voice": {
+    "asr": "faster-whisper",
+    "model": "small",
+    "model_dir": "models",
+    "language": "zh",
+    "device": "cpu",
+    "compute_type": "int8",
+    "sample_rate": 16000,
+    "input_device": null,
+    "silence_seconds": 1.0,
+    "energy_threshold": 0.012,
+    "max_record_seconds": 8.0,
+    "always_on": true,
+    "use_llm_fallback": false,
+    "llm_base_url": "https://api.openai.com/v1",
+    "llm_model": "gpt-4o-mini",
+    "llm_api_key_env": "OPENAI_API_KEY"
+  },
+  "vision": {
+    "camera_index": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 30.0,
+    "backend": "dshow",
+    "black_threshold": 70,
+    "min_radius_px": 6.0,
+    "max_radius_px": 200.0,
+    "circularity": 0.62,
+    "min_fill_ratio": 0.72,
+    "gain_xy": 0.00035,
+    "gain_z": 0.00035,
+    "gain_depth": 0.0012,
+    "target_radius_ratio": 1.0,
+    "max_step_mm": 28.0,
+    "center_tol_px": 28.0,
+    "max_iterations": 90,
+    "settle_frames": 5,
+    "image_right_axis": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "image_down_axis": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "toward_ball_axis": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "show_window": true
+  },
+  "presets_file": "presets.json"
+}

@@ -1,0 +1,147 @@
+{
+  "poses": {
+    "stand": {
+      "label": "立正（中位，手臂水平前伸）",
+      "action": {
+        "shoulder_pan": -0.078,
+        "shoulder_lift": -41.304,
+        "elbow_flex": 21.983,
+        "wrist_flex": 22.137,
+        "wrist_roll": -0.019,
+        "gripper": 40.0
+      }
+    },
+    "raise": {
+      "label": "抬起（手臂抬高）",
+      "action": {
+        "shoulder_pan": -0.102,
+        "shoulder_lift": -51.564,
+        "elbow_flex": 10.211,
+        "wrist_flex": 14.348,
+        "wrist_roll": -0.014,
+        "gripper": 40.0
+      }
+    },
+    "left": {
+      "label": "向左转",
+      "action": {
+        "shoulder_pan": -42.191,
+        "shoulder_lift": -40.609,
+        "elbow_flex": 21.419,
+        "wrist_flex": 22.099,
+        "wrist_roll": -0.822,
+        "gripper": 40.0
+      }
+    },
+    "right": {
+      "label": "向右转",
+      "action": {
+        "shoulder_pan": 42.036,
+        "shoulder_lift": -40.609,
+        "elbow_flex": 21.42,
+        "wrist_flex": 22.102,
+        "wrist_roll": 0.784,
+        "gripper": 40.0
+      }
+    },
+    "forward": {
+      "label": "前伸",
+      "action": {
+        "shoulder_pan": -0.057,
+        "shoulder_lift": 4.439,
+        "elbow_flex": -5.824,
+        "wrist_flex": -3.73,
+        "wrist_roll": 0.002,
+        "gripper": 40.0
+      }
+    },
+    "down": {
+      "label": "向下探",
+      "action": {
+        "shoulder_pan": -0.084,
+        "shoulder_lift": -28.409,
+        "elbow_flex": 40.438,
+        "wrist_flex": 36.473,
+        "wrist_roll": -0.031,
+        "gripper": 40.0
+      }
+    }
+  },
+  "actions": {
+    "wave": {
+      "label": "挥手",
+      "steps": [
+        [
+          "raise",
+          1.2
+        ],
+        [
+          "left",
+          0.7
+        ],
+        [
+          "right",
+          0.7
+        ],
+        [
+          "left",
+          0.7
+        ],
+        [
+          "right",
+          0.7
+        ],
+        [
+          "stand",
+          1.0
+        ]
+      ]
+    },
+    "greet": {
+      "label": "打招呼（抬臂点头再放下）",
+      "steps": [
+        [
+          "raise",
+          1.0
+        ],
+        [
+          "forward",
+          0.7
+        ],
+        [
+          "raise",
+          0.7
+        ],
+        [
+          "forward",
+          0.7
+        ],
+        [
+          "stand",
+          1.0
+        ]
+      ]
+    },
+    "sweep": {
+      "label": "左右扫一遍",
+      "steps": [
+        [
+          "stand",
+          0.8
+        ],
+        [
+          "left",
+          1.0
+        ],
+        [
+          "right",
+          1.6
+        ],
+        [
+          "stand",
+          1.0
+        ]
+      ]
+    }
+  }
+}

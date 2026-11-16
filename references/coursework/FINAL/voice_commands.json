@@ -1,0 +1,16 @@
+{
+  "default_distance_cm": 1.0,
+  "max_distance_cm": 10.0,
+  "preset_poses": {
+    "home": {
+      "aliases": ["回到初始位置", "回到初始姿态", "初始姿态", "回零", "复位", "home"],
+      "path": "FINAL/outputs/servo_records/pose_20260928_200833.json"
+    }
+  },
+  "preset_actions": {
+    "demo": {
+      "aliases": ["执行预设动作", "执行演示动作", "演示动作", "开始演示", "做一遍动作", "demo"],
+      "path": "FINAL/outputs/servo_records/pose_20260928_203838_demo10s.json"
+    }
+  }
+}

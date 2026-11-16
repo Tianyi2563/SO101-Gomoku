@@ -1,0 +1,11 @@
+{
+  "requested_backend": "codex-native",
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "xhigh",
+  "agent": "/root/reuse_review",
+  "context": "fresh, fork_turns=none",
+  "helper_resolution": "reviewer_route.py absent in configured resolution paths; no project reviewer configuration",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "deterministic_evidence": "15 offline tests passed; demo and compileall exit 0"
+}

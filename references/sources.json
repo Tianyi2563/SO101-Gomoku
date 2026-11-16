@@ -1,0 +1,20 @@
+[
+  {
+    "download_url": "https://codeload.github.com/hri5-boardgame-robot/Koch_Gomoku_robot/zip/refs/heads/main",
+    "name": "Koch_Gomoku_robot",
+    "format": "zip snapshot",
+    "repository": "https://github.com/hri5-boardgame-robot/Koch_Gomoku_robot",
+    "commit": null,
+    "sha256": "36B14AC1867A7DEBEFAEC435872942B811219847B462E8AF7D239AE68D6AC473",
+    "retrieved_date": "2026-11-16"
+  },
+  {
+    "download_url": "https://codeload.github.com/BranavanSelvasingham/lerobot-llm-chess/zip/refs/heads/main",
+    "name": "lerobot-llm-chess",
+    "format": "zip snapshot",
+    "repository": "https://github.com/BranavanSelvasingham/lerobot-llm-chess",
+    "commit": null,
+    "sha256": "2CAC192A9B1DDE0B7891C7552154231C95189A57EC9B8F0C89C67FADB58BF31F",
+    "retrieved_date": "2026-11-16"
+  }
+]
