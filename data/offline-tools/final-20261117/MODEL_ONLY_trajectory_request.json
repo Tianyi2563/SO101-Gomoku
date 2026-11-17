@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "mode": "OFFLINE_MODEL_ONLY",
+  "orientation_mode": "all",
+  "current_deg": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "position_tolerance_m": 0.0001,
+  "orientation_tolerance_rad": 0.001,
+  "waypoints": [
+    {
+      "stage": "model_target",
+      "pose": [
+        [
+          0.00043330031879945105,
+          0.008705897955156233,
+          0.9999620090741587,
+          0.3913479705920392
+        ],
+        [
+          0.048660998408418886,
+          0.9987773159763557,
+          -0.0087166693732782,
+          -0.0030855438677780665
+        ],
+        [
+          -0.9988152579354853,
+          0.048662926667655274,
+          9.13284288250034e-06,
+          0.22646970207701028
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "constraints": {
+    "max_linear_speed_m_s": 0.02,
+    "max_angular_speed_rad_s": 0.2,
+    "joint_speed_deg_s": 5.0,
+    "joint_accel_deg_s2": 10.0
+  }
+}

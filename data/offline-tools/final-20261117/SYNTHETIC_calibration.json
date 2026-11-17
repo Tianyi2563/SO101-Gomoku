@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "calibration_id": "SYNTHETIC-board-only",
+  "created_at": "2026-11-17T09:44:33.913721+00:00",
+  "frame_from": "board_intersections",
+  "frame_to": "robot_base",
+  "units": "m",
+  "intersections": 10,
+  "spacing_m": 0.021,
+  "spacing_verified": false,
+  "measurement_source": "synthetic",
+  "T_base_board": [
+    [
+      0.9999999999999996,
+      -7.788229440199923e-17,
+      0.0,
+      0.10000000000000002
+    ],
+    [
+      7.912695146637737e-17,
+      0.9999999999999997,
+      0.0,
+      -0.2
+    ],
+    [
+      0.0,
+      0.0,
+      0.9999999999999992,
+      0.04
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "validation_limit_mm": 3.0,
+  "within_validation_limit": true,
+  "report": {
+    "fit": {
+      "count": 5,
+      "rms_mm": 8.068235998053636e-14,
+      "max_mm": 1.2412670766236365e-13,
+      "points": [
+        {
+          "row": 0,
+          "col": 0,
+          "error_mm": 1.3877787807814457e-14,
+          "predicted_base_xyz_m": [
+            0.10000000000000002,
+            -0.2,
+            0.04
+          ]
+        },
+        {
+          "row": 0,
+          "col": 9,
+          "error_mm": 1.1443916996305594e-13,
+          "predicted_base_xyz_m": [
+            0.2889999999999999,
+            -0.19999999999999998,
+            0.04
+          ]
+        },
+        {
+          "row": 9,
+          "col": 0,
+          "error_mm": 5.551115123125783e-14,
+          "predicted_base_xyz_m": [
+            0.1,
+            -0.011000000000000065,
+            0.04
+          ]
+        },
+        {
+          "row": 9,
+          "col": 9,
+          "error_mm": 1.2412670766236365e-13,
+          "predicted_base_xyz_m": [
+            0.2889999999999999,
+            -0.011000000000000065,
+            0.04
+          ]
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "error_mm": 2.7755575615628914e-14,
+          "predicted_base_xyz_m": [
+            0.184,
+            -0.11600000000000003,
+            0.04
+          ]
+        }
+      ]
+    },
+    "validation": {
+      "count": 4,
+      "rms_mm": 6.582812753581314e-14,
+      "max_mm": 1.1188630228279524e-13,
+      "points": [
+        {
+          "row": 0,
+          "col": 4,
+          "error_mm": 0.0,
+          "predicted_base_xyz_m": [
+            0.184,
+            -0.2,
+            0.04
+          ]
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "error_mm": 3.1031676915590914e-14,
+          "predicted_base_xyz_m": [
+            0.10000000000000002,
+            -0.11600000000000003,
+            0.04
+          ]
+        },
+        {
+          "row": 4,
+          "col": 9,
+          "error_mm": 1.1188630228279524e-13,
+          "predicted_base_xyz_m": [
+            0.2889999999999999,
+            -0.11600000000000002,
+            0.04
+          ]
+        },
+        {
+          "row": 9,
+          "col": 4,
+          "error_mm": 6.206335383118183e-14,
+          "predicted_base_xyz_m": [
+            0.18399999999999997,
+            -0.011000000000000065,
+            0.04
+          ]
+        }
+      ]
+    }
+  },
+  "source_points": [
+    {
+      "row": 0,
+      "col": 0,
+      "role": "fit",
+      "base_xyz_m": [
+        0.1,
+        -0.2,
+        0.04
+      ]
+    },
+    {
+      "row": 0,
+      "col": 9,
+      "role": "fit",
+      "base_xyz_m": [
+        0.28900000000000003,
+        -0.2,
+        0.04
+      ]
+    },
+    {
+      "row": 9,
+      "col": 0,
+      "role": "fit",
+      "base_xyz_m": [
+        0.1,
+        -0.01100000000000001,
+        0.04
+      ]
+    },
+    {
+      "row": 9,
+      "col": 9,
+      "role": "fit",
+      "base_xyz_m": [
+        0.28900000000000003,
+        -0.01100000000000001,
+        0.04
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "role": "fit",
+      "base_xyz_m": [
+        0.184,
+        -0.116,
+        0.04
+      ]
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "role": "validation",
+      "base_xyz_m": [
+        0.184,
+        -0.2,
+        0.04
+      ]
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "role": "validation",
+      "base_xyz_m": [
+        0.1,
+        -0.116,
+        0.04
+      ]
+    },
+    {
+      "row": 4,
+      "col": 9,
+      "role": "validation",
+      "base_xyz_m": [
+        0.28900000000000003,
+        -0.116,
+        0.04
+      ]
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "role": "validation",
+      "base_xyz_m": [
+        0.184,
+        -0.01100000000000001,
+        0.04
+      ]
+    }
+  ],
+  "accuracy_note": "Fit residuals are not external accuracy; FK/model and synthetic points do not establish hardware precision."
+}

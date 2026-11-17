@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "units": "m",
+  "intersections": 10,
+  "spacing_m": 0.021,
+  "spacing_verified": false,
+  "measurement_source": "manual_input",
+  "points": [
+    {
+      "row": 0,
+      "col": 0,
+      "role": "fit",
+      "base_xyz_m": null
+    },
+    {
+      "row": 0,
+      "col": 9,
+      "role": "fit",
+      "base_xyz_m": null
+    },
+    {
+      "row": 9,
+      "col": 0,
+      "role": "fit",
+      "base_xyz_m": null
+    },
+    {
+      "row": 9,
+      "col": 9,
+      "role": "fit",
+      "base_xyz_m": null
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "role": "fit",
+      "base_xyz_m": null
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "role": "validation",
+      "base_xyz_m": null
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "role": "validation",
+      "base_xyz_m": null
+    },
+    {
+      "row": 4,
+      "col": 9,
+      "role": "validation",
+      "base_xyz_m": null
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "role": "validation",
+      "base_xyz_m": null
+    }
+  ]
+}

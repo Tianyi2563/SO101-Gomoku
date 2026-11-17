@@ -15,3 +15,8 @@
 
 ## SO101 官方模型（2026-11-16）
 assets/robot/so101/ 中 URDF、STL 资源与 README 来自 TheRobotStudio/SO-ARM100/Simulation/SO101，官方原样快照，Apache-2.0（同目录 LICENSE）。非此前两个参考项目的复制品。验证工具为本项目新增。
+
+## 五子棋AI复用（2026-11-17）
+- src/so101_gomoku/ai/vendor/koch/mcts_alphaZero.py、policy_value_net.py：Koch_Gomoku_robot 上游原样源码，MIT；同目录保留LICENSE。
+- assets/models/koch/Vanilla_MCTS.model：复制自同一上游 Gomoku_AI/Vanilla_MCTS/save/model_9/Vanilla_MCTS.model；沿用上游仓库MIT许可，未训练或修改权重，不对训练数据来源或棋力作额外保证。
+- ai/koch_mcts.py 为本项目适配：实际调用上游网络及TreeNode，不调用上游带硬件禁区的VanillaBoard与随机get_action；细节见AI_AND_TURNS.md。

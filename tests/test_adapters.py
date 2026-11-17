@@ -23,7 +23,7 @@ class Solver:
 
 class AdapterTests(unittest.TestCase):
     def test_grid_and_no_implicit_resize(self):
-        grid = get_grid_points((10, 20), (90, 100))
+        grid = get_grid_points((10, 20), (90, 100), size=9)
         np.testing.assert_allclose(grid[9], [10, 30])
         image = np.zeros((600, 800), dtype=np.uint8)
         image[400:410, 600:610] = 255
@@ -35,7 +35,7 @@ class AdapterTests(unittest.TestCase):
             estimate_homography([[0, 0]] * 4, [[0, 0]] * 4)
 
     def test_stability_and_duplicate(self):
-        cells = GameState.empty().cells
+        cells = GameState.empty(9).cells
         stable = BoardStabilizer(frames=2)
         def obs(i, cal='c'):
             return BoardObservation(cells, ((1.,) * 9,) * 9, str(i), float(i), cal)

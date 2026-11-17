@@ -1,0 +1,7 @@
+{
+  "undeclared": [], "stale_rows": [], "semantic_undeclared": 0,
+  "verdict": "clean", "defects": [],
+  "resolved": ["Each observation stage now rejects frames captured at or before stage entry, preserving any stricter supplied timestamp floor. This closes the previously reproduced buffered-AI-frame gap and covers recovery.","T11 accurately describes globally increasing timestamps and adjacent distinct frame IDs; T14 records the new timestamp-floor behavior."],
+  "verification": "Independently ran all 16 controller tests successfully, including both new buffered-frame regressions.",
+  "scope": "Round 2 focused fix verification only; read-only, same-family provisional. No broader review or hardware/AI-strength conclusions."
+}

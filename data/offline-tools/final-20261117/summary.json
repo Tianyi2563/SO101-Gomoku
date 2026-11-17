@@ -1,0 +1,47 @@
+{
+  "mode": "OFFLINE_SYNTHETIC",
+  "hardware_connected": false,
+  "calibration_source": "synthetic",
+  "validation_max_mm": 1.1188630228279524e-13,
+  "trajectory_report": {
+    "sample_count": 16,
+    "duration_s": 0.5329170180169037,
+    "time_scale": 1.847782951454498,
+    "max_joint_velocity_deg_s": {
+      "shoulder_pan": 1.7539808937076287,
+      "shoulder_lift": 0.011419110134960825,
+      "elbow_flex": 0.013789082836980745,
+      "wrist_flex": 0.002369972703595507,
+      "wrist_roll": 1.4363508177922254e-08
+    },
+    "max_joint_acceleration_deg_s2": {
+      "shoulder_pan": 9.999980000030003,
+      "shoulder_lift": 0.16092053017937663,
+      "elbow_flex": 0.1943171545309267,
+      "wrist_flex": 0.03339662438976621,
+      "wrist_roll": 2.8869775242724377e-07
+    },
+    "max_position_residual_m": 3.6025653591525062e-09,
+    "max_constrained_orientation_residual_rad": 1.9736434389275395e-09,
+    "max_fk_linear_speed_m_s": 0.010791690899491687,
+    "max_fk_angular_speed_rad_s": 0.030612741612272513,
+    "nominal_sample_period_s": 0.02,
+    "max_final_sample_period_s": 0.035527801201126974,
+    "orientation_mode": "all",
+    "workspace_checked": false,
+    "collision_status": "NOT_CHECKED",
+    "hardware_execution": false,
+    "limitations": [
+      "Sampled model checks, not continuous collision proof",
+      "Joint rates checked by finite differences, endpoints assumed stopped",
+      "No servo dynamics, load, jerk or real tracking verification"
+    ]
+  },
+  "restart_initial_phase": "paused",
+  "phase_after_reconciliation": "wait_human",
+  "game_version": 3,
+  "robot_tasks_before_restart": 2,
+  "robot_tasks_after_restart": 2,
+  "journal_records": 40,
+  "images": 14
+}

@@ -21,7 +21,7 @@ class SimulatedIK:
 
 
 def run(output: Path) -> dict:
-    state = GameState.empty()
+    state = GameState.empty(9)  # Legacy synthetic geometry; main game defaults to 10.
     move = Move(4, 4, Cell.BLACK)  # scripted move, NOT an AI decision
     geometry = BoardGeometry(9, .022)  # synthetic geometry, NOT real calibration
     plan = plan_pick_place(geometry, np.eye(4), move.row, move.col, [-.04, 0, 0],

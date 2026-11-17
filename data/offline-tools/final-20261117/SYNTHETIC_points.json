@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "units": "m",
+  "intersections": 10,
+  "spacing_m": 0.021,
+  "spacing_verified": false,
+  "measurement_source": "synthetic",
+  "points": [
+    {
+      "row": 0,
+      "col": 0,
+      "role": "fit",
+      "base_xyz_m": [
+        0.1,
+        -0.2,
+        0.04
+      ]
+    },
+    {
+      "row": 0,
+      "col": 9,
+      "role": "fit",
+      "base_xyz_m": [
+        0.28900000000000003,
+        -0.2,
+        0.04
+      ]
+    },
+    {
+      "row": 9,
+      "col": 0,
+      "role": "fit",
+      "base_xyz_m": [
+        0.1,
+        -0.01100000000000001,
+        0.04
+      ]
+    },
+    {
+      "row": 9,
+      "col": 9,
+      "role": "fit",
+      "base_xyz_m": [
+        0.28900000000000003,
+        -0.01100000000000001,
+        0.04
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "role": "fit",
+      "base_xyz_m": [
+        0.184,
+        -0.116,
+        0.04
+      ]
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "role": "validation",
+      "base_xyz_m": [
+        0.184,
+        -0.2,
+        0.04
+      ]
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "role": "validation",
+      "base_xyz_m": [
+        0.1,
+        -0.116,
+        0.04
+      ]
+    },
+    {
+      "row": 4,
+      "col": 9,
+      "role": "validation",
+      "base_xyz_m": [
+        0.28900000000000003,
+        -0.116,
+        0.04
+      ]
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "role": "validation",
+      "base_xyz_m": [
+        0.184,
+        -0.01100000000000001,
+        0.04
+      ]
+    }
+  ]
+}

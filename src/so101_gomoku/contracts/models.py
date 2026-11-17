@@ -46,3 +46,11 @@ class ExecutionResult:
     reason: str = ""
     visual_confirmed: bool = False
 
+
+@dataclass(frozen=True)
+class RobotTask:
+    task_id: str
+    move: Move
+    expected_game_version: int
+    calibration_id: str
+

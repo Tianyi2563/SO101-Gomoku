@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 
 
-def get_grid_points(top_left, bottom_right, size=9):
+def get_grid_points(top_left, bottom_right, size=10):
     if size < 2:
         raise ValueError("Grid size must be >=2")
     tl, br = np.asarray(top_left, float), np.asarray(bottom_right, float)

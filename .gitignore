@@ -24,3 +24,11 @@ build/
 dist/
 .DS_Store
 Thumbs.db
+
+# Local diagnostic artifacts
+data/offline-tools/browser-preview-profile/
+data/offline-tools/run-20261117/
+data/offline-tools-smoke.json
+data/board-reference/
+data/offline-tools/**/writer.lock
+data/offline-tools/**/replay-preview*.png

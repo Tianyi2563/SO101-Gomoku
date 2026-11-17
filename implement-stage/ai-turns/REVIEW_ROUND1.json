@@ -1,0 +1,8 @@
+{
+  "undeclared": [],
+  "stale_rows": [{"id":"T11","issue":"Ledger claims process-wide strictly increasing frame_id; controller only rejects equality with the immediately preceding frame_id.","location":"src/so101_gomoku/orchestration/controller.py:78","recommendation":"Describe globally increasing timestamps and adjacent distinct frame IDs, or implement the stronger documented ID constraint."}],
+  "semantic_undeclared": 0,
+  "verdict": "gaps",
+  "defects": [{"priority":"P2","location":"src/so101_gomoku/orchestration/controller.py:143","issue":"Pre-execution validation accepts buffered observations captured before AI completion, undermining T13.","reproduction":"Queue two matching observations during choose_move, change the simulated physical board before returning the decision, then return the queued frames. Their distinct IDs, increasing timestamps and age below five seconds pass validation. One robot task is sent; only SimulatedTable's independent version check subsequently pauses execution.","expected":"The changed board should prevent sending a robot task.","recommendation":"Require pre-execution observations captured after AI completion or revalidation start using not_before, and add the buffered-frame regression."}],
+  "scope":{"assurance":"same-family provisional","method":"One focused read-only pass plus an in-memory defect reproduction.","reviewed":"Specified ledger, AI, orchestration, board/model changes, tests, demo, integration documentation, and reconciliation/stabilizer dependencies.","excluded":"Vendor internals and .venv contents.","limits":"No hardware evaluation, AI-strength claim, or independent full-suite rerun."}
+}

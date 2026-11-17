@@ -1,0 +1,25 @@
+{
+  "calibration_id": "SYNTHETIC_10_INTERSECTIONS",
+  "empty_image": "empty.png",
+  "outer_intersections_xy": [
+    [
+      48,
+      48
+    ],
+    [
+      624,
+      48
+    ],
+    [
+      624,
+      624
+    ],
+    [
+      48,
+      624
+    ]
+  ],
+  "vision": {
+    "intersections": 10
+  }
+}

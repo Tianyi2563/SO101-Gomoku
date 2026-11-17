@@ -12,6 +12,7 @@ class GameState:
     cells: tuple[tuple[Cell, ...], ...]
     next_player: Cell = Cell.BLACK
     version: int = 0
+    last_move: Move | None = None
 
     def __post_init__(self):
         n = len(self.cells)
@@ -23,7 +24,7 @@ class GameState:
             raise ValueError("Unknown cells cannot enter confirmed game state")
 
     @classmethod
-    def empty(cls, size=9):
+    def empty(cls, size=10):
         return cls(tuple(tuple(Cell.EMPTY for _ in range(size)) for _ in range(size)))
 
     @property
@@ -60,4 +61,4 @@ class GameState:
             raise ValueError("Cell occupied")
         cells = [list(row) for row in self.cells]
         cells[move.row][move.col] = move.color
-        return GameState(tuple(tuple(row) for row in cells), Cell(-self.next_player), self.version + 1)
+        return GameState(tuple(tuple(row) for row in cells), Cell(-self.next_player), self.version + 1, move)

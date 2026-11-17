@@ -16,7 +16,7 @@ def observe(state):
 
 class CoreTests(unittest.TestCase):
     def test_moves_and_immutability(self):
-        state = GameState.empty()
+        state = GameState.empty(9)
         after = state.play(Move(0, 0, Cell.BLACK))
         self.assertEqual(state.cells[0][0], Cell.EMPTY)
         self.assertEqual(after.version, 1)
@@ -35,7 +35,7 @@ class CoreTests(unittest.TestCase):
                 state.play(Move(8, 8, Cell.BLACK))
 
     def test_reconcile(self):
-        state = GameState.empty()
+        state = GameState.empty(9)
         move = Move(3, 4, Cell.BLACK)
         obs = observe(state.play(move))
         self.assertEqual(detect_single_move(state, obs), move)
@@ -68,7 +68,7 @@ class CoreTests(unittest.TestCase):
         state = GameState(cells)
         self.assertIsNone(state.winner())
         self.assertTrue(state.finished)
-        empty = GameState.empty()
+        empty = GameState.empty(9)
         changed = empty.play(Move(1, 1, Cell.BLACK)).play(Move(1, 2, Cell.WHITE))
         with self.assertRaises(ValueError):
             detect_single_move(empty, observe(changed))
